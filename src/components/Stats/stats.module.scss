@@ -1,0 +1,30 @@
+@use '/src/styles/_variables.scss' as v;
+
+
+.container{
+    width: 100%;
+    background-color: v.$complyColor;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-inline: 7.5vw;
+    padding-block:3rem ;
+    box-sizing: border-box;
+}
+.container > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+.container > article > h2 {
+    color: v.$white;
+    margin-top: 0;
+}
+.container > article > p {
+    text-align: center;
+    width: 80%;
+    color: v.$white;
+    margin-bottom: 0;
+}

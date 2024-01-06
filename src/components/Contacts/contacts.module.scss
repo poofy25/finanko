@@ -1,0 +1,27 @@
+@use '/src/styles/_variables.scss' as v;
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.25);
+    box-sizing: border-box;
+    padding-bottom: 3rem;
+}
+.container > h2 {
+    color: v.$primaryColor;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.container > p {
+    width: 40%;
+    text-align: center;
+    color: v.$primaryColor;
+}
+.container > iframe {
+    width: 80%;
+    height: 75vh;
+}

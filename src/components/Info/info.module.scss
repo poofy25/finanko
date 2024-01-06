@@ -1,0 +1,26 @@
+@use '/src/styles/_variables.scss' as v;
+
+
+.container{
+    width: 100%;
+    background-color: v.$complyColor;
+    box-sizing: border-box;
+    padding-inline: 20vw;
+    padding-block: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container > h2 {
+    text-align: center;
+    color: v.$white;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+.container > p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgba(247, 247, 247,0.9);
+    margin: 0;
+}
