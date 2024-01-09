@@ -48,7 +48,7 @@ function App() {
       <ServicesSection/>
       <PartnersSection/>
       <ContactsSection/>
-      <Footer/>
+      
     </>
 
       }/>
@@ -60,7 +60,7 @@ function App() {
       <Route path="/servicii_managment_resurse_umane_si_salarizare" element= {<ProjectPage data={projectsData['SERVICII MANAGEMENT RESURSE UMANE SI SALARIZARE']}/>}/>
       <Route path="/analiza_manageriala" element= {<ProjectPage data={projectsData['ANALIZA MANAGERIALA']}/>}/>
     </Routes>
-    
+    <Footer/>
     </BrowserRouter>
   )
 }

@@ -72,6 +72,9 @@
     cursor: pointer;
     box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.125);
     border: 2px solid v.$white;
+    color: v.$black;
+    transition: 0.25s ease-in-out;
+
   
 }
 
@@ -89,13 +92,33 @@
 .project > div > img {
     width: 60%;
     aspect-ratio: 1;
+    transition: 0.5s ease-in-out;
+
 }
 
 .project > article > h3 {
     margin: 0;
+    color: v.$black;
+    transition: 0.25s ease-in-out;
+
 }
 .project > article > p {
     margin: 0;
     font-size: 1rem;
     color: rgb(186, 158, 0);
+    transition: 0.25s ease-in-out;
+
+}
+
+.project:hover > div > img {
+    transform: rotateY(360deg);
+}
+.project:hover {
+    background-color: v.$complyColor;
+}
+.project:hover > article > h3 {
+    color: v.$white;
+}
+.project:hover > article > p {
+    color: v.$black;
 }

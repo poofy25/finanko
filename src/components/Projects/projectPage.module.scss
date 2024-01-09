@@ -8,18 +8,64 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    min-height: calc(100vh - 80px);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 .container > h2 {
+    margin-top:0 ;
+    width: 100%;
+    text-align: center;
     font-size: 2rem;
-    padding-left: 7.5vw;
     color: rgba(0,0,0,0.75);
 }
 .content{
     border-left: 4px solid v.$complyColor;
     padding-block: 0rem;
     padding-inline: 2rem;
+    width: 100%;
 }
 .content > ul > li {
     font-size: 1.1rem;
     margin-block: 0.25rem;
+}
+
+.contactContainer {
+    width: 100%;
+    height: 10rem;
+    margin-top: 3rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactContainer > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.contactContainer > a {
+    text-decoration: none;
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: v.$primaryColor;
+    color: rgba(255,255,255,0.9);
+
+    border-radius: 999px;
+    font-size: 1.1rem;
+    border: 2px solid v.$primaryColor;
+    transition: 0.25s ease-in-out;
+}
+.contactContainer > a:hover {
+    background-color: rgba(0,0,0,0.25);
+    color: rgba(255,255,255,1);
+
 }

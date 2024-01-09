@@ -4,6 +4,8 @@ import logo from '/src/assets/Images/logo_cropped.png'
 import facebook from '/src/assets/Svgs/facebook.svg'
 import instagram from '/src/assets/Svgs/instagram.svg'
 
+import { HashLink } from 'react-router-hash-link'
+
 function Footer() {
     return ( 
         <footer>
@@ -16,12 +18,12 @@ function Footer() {
                 </article>
                 <article>
                     <h3>NAVIGHEZĂ</h3>
-                    <a href='#acasa'>Acasă</a>
-                    <a href='#desprenoi'>Despre Noi</a>
-                    <a href='#proiecte'>Proiecte</a>
-                    <a href='#servicii'>Servicii</a>
-                    <a href='#parteneri'>Parteneri</a>
-                    <a href='#contacte'>Contacte</a>
+                    <HashLink smooth to="/#acasa">Acasă</HashLink>
+                    <HashLink smooth to="/#desprenoi">Despre Noi</HashLink>
+                    <HashLink smooth to="/#proiecte">Proiecte</HashLink>
+                    <HashLink smooth to="/#servicii">Servicii</HashLink>
+                    <HashLink smooth to="/#parteneri">Parteneri</HashLink>
+                    <HashLink smooth to="/#contacte">Contacte</HashLink>
 
                 </article>
                 <article>

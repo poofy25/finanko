@@ -1,5 +1,9 @@
 import styles from './projectPage.module.scss'
 
+import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.production'
+
+
+import contactBg from '/src/assets/Images/Sections/contactBG.jpg'
 
 function ProjectPage({data}) {
     return ( 
@@ -16,6 +20,11 @@ function ProjectPage({data}) {
                     })}
                 </ul>
 
+            </div>
+
+            <div className={styles.contactContainer}>
+                <HashLink smooth to="/#contacte">Contactează-ne</HashLink>
+                <img src={contactBg}/>
             </div>
 
         </section>
