@@ -6,7 +6,7 @@ function HeroSection() {
     return ( 
         <section className={styles.container} id='acasa'>
             <header>
-                <h1>Descoperă soluții elegante pentru afacerea ta</h1>
+                <h1>Descoperă soluții optime pentru afacerea ta</h1>
             </header>
             <img src={Image}/>
         </section>

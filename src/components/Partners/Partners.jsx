@@ -15,12 +15,13 @@ function PartnersSection() {
             <h2>Partenerii</h2>
             <article>
                 <span><img src={bgImg}/></span>
+                <div><img src={part3}/></div>
+                <div><img src={part5}/></div>
+                <div><img src={part4}/></div>
                 <div><img src={part1}/></div>
                 <div><img src={part6}/></div>
                 <div><img src={part2}/></div>
-                <div><img src={part3}/></div>
-                <div><img src={part4}/></div>
-                <div><img src={part5}/></div>
+                
             </article>
         </section> 
     );
