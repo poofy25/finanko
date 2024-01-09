@@ -6,6 +6,8 @@ import NavBarMenu from './NavBarMenu'
 
 import { useEffect, useState } from 'react'
 
+import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.production'
+
 
 
 
@@ -55,11 +57,12 @@ function NavBar({width}) {
         <nav className={styles.none}>
             <a href='#acasa' className={styles.logoBar}><img alt='Logo' src={logo}/></a>
             <section className={styles.navigationBar}>
-                <a href='#acasa'>Acasă</a>
-                <a href='#desprenoi'>Despre Noi</a>
-                <a href='#proiecte'>Proiecte</a>
-                <a href='#servicii'>Servicii</a>
-                <a href='#parteneri'>Parteneri</a>
+                <HashLink smooth to="/#acasa">Acasă</HashLink>
+                <HashLink smooth to="/#desprenoi">Despre Noi</HashLink>
+                <HashLink smooth to="/#proiecte">Proiecte</HashLink>
+                <HashLink smooth to="/#servicii">Servicii</HashLink>
+                <HashLink smooth to="/#parteneri">Parteneri</HashLink>
+
                 {width > 992 ? 
                 <>
                    
@@ -80,7 +83,8 @@ function NavBar({width}) {
                 </div>
                 <span></span>
 
-              <a href='#contacte'>Contactează-ne</a>
+              <HashLink smooth to="/#contacte">Contactează-ne</HashLink>
+
             </section>
             <NavBarMenu  status={menuActive} setStatus={setMenuActive} />
         </nav>

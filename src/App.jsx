@@ -12,9 +12,14 @@ import PartnersSection from './components/Partners/Partners'
 import ContactsSection from './components/Contacts/Contacts'
 import Footer from './components/Footer/Footer'
 
+import ProjectPage from './components/Projects/ProjectPage'
+import projectsData from './components/Projects/projectsData'
+
 
 import { useWindowSize } from '@uidotdev/usehooks'
+import { BrowserRouter , Route , Routes } from 'react-router-dom'
 import { useState , useEffect } from 'react'
+
 
 function App() {
 
@@ -27,18 +32,36 @@ function App() {
   },[size])
 
   return (
-    <>
+    
+    <BrowserRouter>
     <NavBar width={width}/>
-    <HeroSection/>
-    <AboutSection/>
-    <InfoSection/>
-    <ProjectsSection/>
-    <StatsSection/>
-    <ServicesSection/>
-    <PartnersSection/>
-    <ContactsSection/>
-    <Footer/>
+    <Routes>
+      <Route path="/" element={
+
+    <>
+      
+      <HeroSection/>
+      <AboutSection/>
+      <InfoSection/>
+      <ProjectsSection/>
+      <StatsSection/>
+      <ServicesSection/>
+      <PartnersSection/>
+      <ContactsSection/>
+      <Footer/>
     </>
+
+      }/>
+     
+    </Routes>
+    <Routes>
+      <Route path="/business_consultanta" element= {<ProjectPage data={projectsData['BUSINESS CONSULTANTA']}/>}/>
+      <Route path="/servicii_de_contabilitate" element= {<ProjectPage data={projectsData['SERVICII DE CONTABILITATE']}/>}/>
+      <Route path="/servicii_managment_resurse_umane_si_salarizare" element= {<ProjectPage data={projectsData['SERVICII MANAGEMENT RESURSE UMANE SI SALARIZARE']}/>}/>
+      <Route path="/analiza_manageriala" element= {<ProjectPage data={projectsData['ANALIZA MANAGERIALA']}/>}/>
+    </Routes>
+    
+    </BrowserRouter>
   )
 }
 

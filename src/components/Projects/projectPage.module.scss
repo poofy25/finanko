@@ -1,0 +1,25 @@
+@use '/src/styles/_variables.scss' as v;
+
+.container {
+    width: 100%;
+    padding-inline: 15vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.container > h2 {
+    font-size: 2rem;
+    padding-left: 7.5vw;
+    color: rgba(0,0,0,0.75);
+}
+.content{
+    border-left: 4px solid v.$complyColor;
+    padding-block: 0rem;
+    padding-inline: 2rem;
+}
+.content > ul > li {
+    font-size: 1.1rem;
+    margin-block: 0.25rem;
+}

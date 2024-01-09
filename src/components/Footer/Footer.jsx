@@ -2,6 +2,7 @@ import styles from './footer.module.scss'
 
 import logo from '/src/assets/Images/logo_cropped.png'
 import facebook from '/src/assets/Svgs/facebook.svg'
+import instagram from '/src/assets/Svgs/instagram.svg'
 
 function Footer() {
     return ( 
@@ -32,9 +33,12 @@ function Footer() {
                 </article>
                 <article>
                     <h3>URMAREȘTE-NE</h3>
-                    <a className={styles.logo}><img src={logo}/></a>
+                    <a href='#acasa' className={styles.logo}><img src={logo}/></a>
                     <h3>SUNTEM ÎN REȚTELELE SOCIALE</h3>
-                    <a className={styles.social}><img src={facebook}/></a>
+                    <span>
+                        <a target='_blank' href='https://www.facebook.com/finanko.md' className={styles.social}><img src={facebook}/></a>
+                        <a target='_blank' href='https://www.instagram.com/finanko.md/' className={styles.social}><img src={instagram}/></a>
+                    </span>
                 </article>
             </section>
             <section className={styles.bottom}></section>

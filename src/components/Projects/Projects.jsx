@@ -18,7 +18,7 @@ function ProjectsSection() {
             <section className={styles.contentContainer}>
                 <div className={styles.projectContainer}>
                     <span></span>
-                    <a className={styles.project}>
+                    <a href='/business_consultanta' className={styles.project}>
                         <div><img src={consultingSVG}/></div>
                         <article>
                         <h3>BUSINESS CONSULTANTA</h3>
@@ -29,7 +29,7 @@ function ProjectsSection() {
                 </div>
                 <div className={styles.projectContainer}>
                     <span></span>
-                    <a className={styles.project}>
+                    <a href='/servicii_de_contabilitate' className={styles.project}>
                         <div><img src={accountingSVG}/></div>
                         <article>
                         <h3>SERVICII CONTABILITATE</h3>
@@ -40,7 +40,7 @@ function ProjectsSection() {
                 </div>
                 <div className={styles.projectContainer}>
                     <span></span>
-                    <a className={styles.project}>
+                    <a href='/analiza_manageriala' className={styles.project}>
                         <div><img src={analysisSVG}/></div>
                         <article>
                         <h3>ANALIZĂ MANAGERIALĂ </h3>
@@ -50,7 +50,7 @@ function ProjectsSection() {
                 </div>
                 <div className={styles.projectContainer}>
                     <span></span>
-                    <a className={styles.project}>
+                    <a href='/servicii_managment_resurse_umane_si_salarizare' className={styles.project}>
                         <div><img src={hrSVG}/></div>
                         <article>
                         <h3>HR ȘI PAYROLL</h3>
