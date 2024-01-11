@@ -9,7 +9,7 @@ function StatsSection() {
         <section className={styles.container} id='statistici'>
 
             <article>
-                <h2>2013</h2>
+                <h2>2015</h2>
                 <p>anul fondarii</p>
             </article>
             <article>

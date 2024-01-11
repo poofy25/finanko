@@ -12,7 +12,7 @@ import part6 from '/src/assets/Images/Sections/Partners/6.svg'
 function PartnersSection() {
     return (
         <section className={styles.container} id='parteneri'>
-            <h2>Partenerii</h2>
+            <h2>Parteneri</h2>
             <article>
                 <span><img src={bgImg}/></span>
                 <div><img src={part3}/></div>
