@@ -93,7 +93,9 @@
     width: 60%;
     aspect-ratio: 1;
     transition: 0.5s ease-in-out;
-
+}
+.project > article {
+    flex: 1;
 }
 
 .project > article > h3 {
@@ -139,7 +141,9 @@
     padding-block: 3rem;
     padding-inline: 7.5vw;
 }
-
+.project{
+    width: 100%;
+}
 }
 @media only screen and (min-width: 640px) and (max-width:992px){
 }

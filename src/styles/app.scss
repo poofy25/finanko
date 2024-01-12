@@ -17,3 +17,27 @@ p{
     font-size: 1.1rem;
     line-height: 2rem;
 }
+@media only screen and (min-width: 0px) and (max-width:640px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+    h3{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width:992px){
+}
+    
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    
+}
+@media only screen and (min-width: 1200px) {
+    
+}

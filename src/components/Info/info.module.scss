@@ -24,3 +24,20 @@
     color: rgba(247, 247, 247,0.9);
     margin: 0;
 }
+
+
+@media only screen and (min-width: 0px) and (max-width:640px) {
+    .container{
+       padding-inline: 7.5vw;
+    }
+
+}
+ @media only screen and (min-width: 640px) and (max-width:992px){
+}
+    
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    
+}
+@media only screen and (min-width: 1200px) {
+    
+}
