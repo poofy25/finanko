@@ -4,7 +4,7 @@ import logo from '/src/assets/Images/logo_white_cropped.png'
 
 import NavBarMenu from './NavBarMenu'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.production'
 
@@ -20,37 +20,7 @@ function NavBar({width}) {
     const menuBtnHandler = ()=>{
         setMenuActive(!menuActive)
     }
-    useEffect(()=>{
-        if(width > 1200){
-        const navBar = document.querySelector('nav')
-        let lastScrollHeight = 0
-        let lastScrollUp = 0;
-        let lastScrollDown = 0
-        window.addEventListener('scroll', (e)=>{
-      
-          if (lastScrollHeight > document.documentElement.scrollTop ){
-            lastScrollUp = document.documentElement.scrollTop
-            if(lastScrollUp < navBar.offsetHeight){
-                navBar.classList.remove(styles.small)
-            }
-          }
-          if ( lastScrollHeight < document.documentElement.scrollTop) {
-            lastScrollDown = document.documentElement.scrollTop
-          }
-          if (lastScrollDown - lastScrollUp >= navBar.offsetHeight && lastScrollHeight > document.documentElement.scrollTop && navBar.classList.contains('NavbarActive')){
-            navBar.classList.remove(styles.small)
-          }
-          if(lastScrollDown - lastScrollUp >= navBar.offsetHeight && lastScrollHeight < document.documentElement.scrollTop  && document.documentElement.scrollTop > navBar.offsetHeight ){
-            navBar.classList.add(styles.small)
-           }
-          lastScrollHeight = document.documentElement.scrollTop
-        })
-      
-        return ()=>{
-            window.removeEventListener('scroll' , ()=>{})
-        }
-        }
-      },[width])
+    
 
 
     return ( 
@@ -65,27 +35,30 @@ function NavBar({width}) {
 
                 {width > 992 ? 
                 <>
-                   
-                </>
-                :
-                <button aria-label='Menu' onClick={menuBtnHandler} className={styles.menuBtn}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </button>
-                }
-                
-            </section>
-            <section className={styles.contactBar}>
+                   <section className={styles.contactBar}>
                 <div>
                   <a href='tel:069374873'>069374873</a>
                   <a href='tel:069371111'>069371111</a>
                 </div>
                 <span></span>
 
-              <HashLink smooth to="/#contacte">Contactează-ne</HashLink>
+                <HashLink smooth to="/#contacte">Contactează-ne</HashLink>
 
+                </section>
+                </>
+                :
+                <>
+                <button aria-label='Menu' onClick={menuBtnHandler} className={styles.menuBtn}>
+                    <div className={menuActive && styles.active}></div>
+                    <div className={menuActive && styles.active}></div>
+                    <div className={menuActive && styles.active}></div>
+                </button>
+                
+                </>
+                }
+                
             </section>
+            
             <NavBarMenu  status={menuActive} setStatus={setMenuActive} />
         </nav>
      );

@@ -9,6 +9,7 @@
      align-items: center;
      justify-content: center;
      margin-bottom: 3rem;
+     overflow: hidden;
 }
 .container > h2 {
     margin-block: 3rem;
@@ -24,6 +25,8 @@
     flex-wrap: wrap;
     padding-inline: 60px;
     box-sizing: border-box;
+    overflow: hidden;
+
 }
 .container > article > span {
     display: block;
@@ -47,4 +50,35 @@
 }
 .container > article > div > img {
     height: 12.5vh;
+}
+
+@media only screen and (min-width: 0px) and (max-width:640px) {
+    .container > article {
+
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+        padding-block: 2rem;
+        gap: 2rem;
+        align-items: center;
+    }
+    .container > article > div {
+        width: 50%;
+    }
+    .container > article > span {
+        height: 100%;
+    }
+    .container > article > div > img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+ @media only screen and (min-width: 640px) and (max-width:992px){
+}
+    
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    
+}
+@media only screen and (min-width: 1200px) {
+    
 }

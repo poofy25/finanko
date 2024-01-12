@@ -24,6 +24,15 @@ function ServicesSection() {
         autoplaySpeed: 2000,
         cssEase: "ease-in-out",
         lazyLoad: true,
+        responsive: [
+            {
+              breakpoint: 640,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
 
       };
 

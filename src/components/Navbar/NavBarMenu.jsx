@@ -1,6 +1,11 @@
-import styles from './navBarMenu.module.css'
+import styles from './navBarMenu.module.scss'
 
 import { useEffect } from 'react';
+
+import { HashLink } from 'react-router-hash-link';
+
+import instagram from '/src/assets/Svgs/instagram.svg'
+import facebook from '/src/assets/Svgs/facebook.svg'
 
 
 function NavBarMenu({status , setStatus}) {
@@ -30,12 +35,19 @@ function NavBarMenu({status , setStatus}) {
         <section onClick={menuClick} className={styles.menu}>
 
             <section className={styles.menuContent}>
-            <a onClick={()=>{setStatus(!status)}} href='#acasa'>Acasa</a>
-            <a onClick={()=>{setStatus(!status)}} href='#desprenoi'>Despre Noi</a>
-            <a onClick={()=>{setStatus(!status)}} href='#servicii'>Servicii</a>
-            <a onClick={()=>{setStatus(!status)}} className={styles.lasta} href='#contact'>Contacte</a>
 
+            <HashLink onClick={()=>{setStatus(!status)}} smooth to="/#acasa">Acasă</HashLink>
+            <HashLink onClick={()=>{setStatus(!status)}} smooth to="/#desprenoi">Despre Noi</HashLink>
+            <HashLink onClick={()=>{setStatus(!status)}} smooth to="/#proiecte">Proiecte</HashLink>
+            <HashLink onClick={()=>{setStatus(!status)}} smooth to="/#servicii">Servicii</HashLink>
+            <HashLink onClick={()=>{setStatus(!status)}} smooth to="/#parteneri">Parteneri</HashLink>
+            <HashLink onClick={()=>{setStatus(!status)}} className={styles.lasta} smooth to="/#contacte">Contacte</HashLink>
         
+
+            <span>
+                <a target='_blank' href='https://www.facebook.com/finanko.md'><img src={facebook}/></a>
+                <a target='_blank' href='https://www.instagram.com/finanko.md/'><img src={instagram}/></a>
+            </span>
 
             </section>
 

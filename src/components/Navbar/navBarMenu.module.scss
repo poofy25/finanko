@@ -1,3 +1,6 @@
+@use '/src/styles/_variables.scss' as v;
+
+
 .menu {
     width: 100%;
     position: fixed;
@@ -10,7 +13,7 @@
     align-items: center;
     justify-content: end;
     transition: 0.25s ease-in-out;
-    z-index: 1;
+    z-index: 9;
 }
 .menu.active{
     transform: translateX(0%);

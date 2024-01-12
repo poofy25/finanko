@@ -4,7 +4,7 @@
 .container{
 background-color: v.$complyColor;
 
-padding-inline: 7.5rem;
+padding-inline: 7.5vw;
 padding-bottom: 2rem;
 box-sizing: border-box;
 overflow: hidden;
@@ -32,6 +32,7 @@ overflow: hidden;
     align-self: flex-start;
     margin: 0;
     margin-top: 2rem;
+    
 
     color: v.$white;
     text-shadow: 0px 0px 4px black;
@@ -44,4 +45,22 @@ overflow: hidden;
     position: absolute;
     z-index: -1;
     box-sizing: border-box;
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width:640px) {
+    .container{
+        padding-inline: 10vw;
+        }
+}
+ @media only screen and (min-width: 640px) and (max-width:992px){
+}
+    
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    
+}
+@media only screen and (min-width: 1200px) {
+    
 }
