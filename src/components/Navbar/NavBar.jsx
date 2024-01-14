@@ -27,7 +27,7 @@ function NavBar({width}) {
         <nav className={styles.none}>
             <a href='#acasa' className={styles.logoBar}><img alt='Logo' src={logo}/></a>
             <section className={styles.navigationBar}>
-                <HashLink smooth to="/#acasa">Acasă</HashLink>
+                <HashLink smooth to="/#acasa" style={{marginLeft:'auto'}}>Acasă</HashLink>
                 <HashLink smooth to="/#desprenoi">Despre Noi</HashLink>
                 <HashLink smooth to="/#proiecte">Proiecte</HashLink>
                 <HashLink smooth to="/#servicii">Servicii</HashLink>

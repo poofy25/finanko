@@ -34,12 +34,18 @@
 .menuContent > a {
     width: 100%;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     padding: 1rem;
     border-top: 1px solid rgba(0,0,0,0.25);
     padding-left: 25px;
     color: #1E1C1C;
     text-decoration: none;
+    background-color: v.$white;
+    transition: 0.25s ease-in-out;
+}
+.menuContent > a:hover{
+    background-color: v.$secondaryColor;
+    color: v.$white;
 }
 .lasta{
     border-bottom: 1px solid rgba(0,0,0,0.25);

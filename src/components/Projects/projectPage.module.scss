@@ -72,3 +72,27 @@
 
 
 
+@media only screen and (min-width: 0px) and (max-width:640px) {
+    .container {
+        padding-inline: 0;
+    }
+    .content{
+        border: none;
+        margin-inline: 7.5vw;
+        box-sizing: border-box;
+        border-top: 4px solid v.$complyColor;
+        padding: 0;
+        width: 85vw;
+    }
+    }
+    @media only screen and (min-width: 640px) and (max-width:992px){
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width:1200px) {
+    
+    }
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    
+

@@ -41,7 +41,7 @@ function App() {
     <>
       
       <HeroSection/>
-      <AboutSection/>
+      <AboutSection width={width}/>
       <InfoSection/>
       <ProjectsSection/>
       <StatsSection/>
