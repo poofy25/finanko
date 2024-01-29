@@ -1,6 +1,7 @@
 import styles from './footer.module.scss'
 
-import logo from '/src/assets/Images/logo_cropped.png'
+import logo from '/src/assets/Images/logo_white_cropped.png'
+
 import facebook from '/src/assets/Svgs/facebook.svg'
 import instagram from '/src/assets/Svgs/instagram.svg'
 
