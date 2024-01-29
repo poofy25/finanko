@@ -16,6 +16,8 @@ function Footer() {
                     <h3>PROGRAM DE LUCRU</h3>
                     <p>Luni - Sambata : 09:00 - 18:00</p>
                     <p>Duminica Ziua Libera</p>
+                    <h3>ADRESA</h3>
+                    <p>Șos. Hîncerști 43</p>
                 </article>
                 <article>
                     <h3>NAVIGHEZĂ</h3>
