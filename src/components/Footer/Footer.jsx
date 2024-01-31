@@ -38,7 +38,7 @@ function Footer() {
                 </article>
                 <article>
                     <h3>URMAREȘTE-NE</h3>
-                    <a href='#acasa' alt='Logo' className={styles.logo}><img src={logo}/></a>
+                    <a href='#acasa' alt='Logo' className={styles.logo}><img alt='Logo' src={logo}/></a>
                     <h3>SUNTEM ÎN REȚTELELE SOCIALE</h3>
                     <span>
                         <a alt='Facebook Logo' target='_blank' href='https://www.facebook.com/finanko.md' className={styles.social}><img src={facebook}/></a>
