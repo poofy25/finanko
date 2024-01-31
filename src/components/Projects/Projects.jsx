@@ -10,7 +10,7 @@ import hrSVG from '/src/assets/Svgs/hr.svg'
 function ProjectsSection() {
     return ( 
         <section className={styles.container} id='proiecte'>
-            <h2>Apeleaza daca ai nevoie de</h2>
+            <h2>Apeleaza daca ai nevoie de:</h2>
             <section>
                 <div className={styles.circle}>
                     <img src={logo}/>
