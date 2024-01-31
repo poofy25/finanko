@@ -14,13 +14,13 @@ function PartnersSection() {
         <section className={styles.container} id='parteneri'>
             <h2>Parteneri</h2>
             <article>
-                <span><img src={bgImg}/></span>
-                <div><img src={part3}/></div>
-                <div><img src={part5}/></div>
-                <div><img src={part4}/></div>
-                <div><img src={part1}/></div>
-                <div><img src={part6}/></div>
-                <div><img src={part2}/></div>
+                <span><img  alt='Partners Image'  src={bgImg}/></span>
+                <div><img  alt='Partner Logo'  src={part3}/></div>
+                <div><img alt='Partner Logo' src={part5}/></div>
+                <div><img alt='Partner Logo' src={part4}/></div>
+                <div><img alt='Partner Logo' src={part1}/></div>
+                <div><img alt='Partner Logo' src={part6}/></div>
+                <div><img alt='Partner Logo' src={part2}/></div>
                 
             </article>
         </section> 

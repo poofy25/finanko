@@ -13,14 +13,14 @@ function ProjectsSection() {
             <h2>Apeleaza daca ai nevoie de:</h2>
             <section>
                 <div className={styles.circle}>
-                    <img src={logo}/>
+                    <img alt='Logo' src={logo}/>
                 </div>
 
                 <section className={styles.contentContainer}>
                     <div className={styles.projectContainer}>
                         <span></span>
                         <a href='/business_consultanta' className={styles.project}>
-                            <div><img src={consultingSVG}/></div>
+                            <div><img alt='Icon' src={consultingSVG}/></div>
                             <article>
                             <h3>BUSINESS CONSULTANTA</h3>
                             <p>• Detalii - </p>
@@ -31,7 +31,7 @@ function ProjectsSection() {
                     <div className={styles.projectContainer}>
                         <span></span>
                         <a href='/servicii_de_contabilitate' className={styles.project}>
-                            <div><img src={accountingSVG}/></div>
+                            <div><img  alt='Icon'  src={accountingSVG}/></div>
                             <article>
                             <h3>SERVICII CONTABILITATE</h3>
                             <p>• Detalii - </p>
@@ -42,7 +42,7 @@ function ProjectsSection() {
                     <div className={styles.projectContainer}>
                         <span></span>
                         <a href='/analiza_manageriala' className={styles.project}>
-                            <div><img src={analysisSVG}/></div>
+                            <div><img  alt='Icon'  src={analysisSVG}/></div>
                             <article>
                             <h3>ANALIZĂ MANAGERIALĂ </h3>
                             <p>• Detalii - </p>
@@ -52,7 +52,7 @@ function ProjectsSection() {
                     <div className={styles.projectContainer}>
                         <span></span>
                         <a href='/servicii_managment_resurse_umane_si_salarizare' className={styles.project}>
-                            <div><img src={hrSVG}/></div>
+                            <div><img  alt='Icon'  src={hrSVG}/></div>
                             <article>
                             <h3>HR ȘI PAYROLL</h3>
                             <p>• Detalii - </p>

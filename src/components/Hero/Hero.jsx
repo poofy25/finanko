@@ -8,7 +8,7 @@ function HeroSection() {
             <header>
                 <h1>Descoperă soluții optime pentru afacerea ta</h1>
             </header>
-            <img src={Image}/>
+            <img alt='Hero Image' src={Image}/>
         </section>
      );
 }

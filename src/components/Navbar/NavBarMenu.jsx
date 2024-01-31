@@ -45,8 +45,8 @@ function NavBarMenu({status , setStatus}) {
         
 
             <span>
-                <a target='_blank' href='https://www.facebook.com/finanko.md'><img src={facebook}/></a>
-                <a target='_blank' href='https://www.instagram.com/finanko.md/'><img src={instagram}/></a>
+                <a target='_blank' href='https://www.facebook.com/finanko.md'><img alt='Facebook Logo' src={facebook}/></a>
+                <a target='_blank' href='https://www.instagram.com/finanko.md/'><img alt='Instagram Logo' src={instagram}/></a>
             </span>
 
             </section>

@@ -45,7 +45,7 @@ function ServicesSection() {
                     <div className={styles.slideWrapper}>
                         <div className={styles.slide}>
                             <h3>{slide.text}</h3>
-                            <img src={slide.src}/>
+                            <img  alt='Service Image'  src={slide.src}/>
                         </div>
                     </div>
                     

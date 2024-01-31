@@ -19,7 +19,7 @@ function AboutSection({width}) {
 
                 </div>
             </div> */}
-            <img src={Image} className={styles.bgImg}/>
+            <img alt='About Image' src={Image} className={styles.bgImg}/>
         </section>
      );
 }

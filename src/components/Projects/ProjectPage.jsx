@@ -24,7 +24,7 @@ function ProjectPage({data}) {
 
             <div className={styles.contactContainer}>
                 <HashLink smooth to="/#contacte">Contactează-ne</HashLink>
-                <img src={contactBg}/>
+                <img alt='Contact Image' src={contactBg}/>
             </div>
 
         </section>

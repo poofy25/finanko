@@ -38,11 +38,11 @@ function Footer() {
                 </article>
                 <article>
                     <h3>URMAREȘTE-NE</h3>
-                    <a href='#acasa' className={styles.logo}><img src={logo}/></a>
+                    <a href='#acasa' alt='Logo' className={styles.logo}><img src={logo}/></a>
                     <h3>SUNTEM ÎN REȚTELELE SOCIALE</h3>
                     <span>
-                        <a target='_blank' href='https://www.facebook.com/finanko.md' className={styles.social}><img src={facebook}/></a>
-                        <a target='_blank' href='https://www.instagram.com/finanko.md/' className={styles.social}><img src={instagram}/></a>
+                        <a alt='Facebook Logo' target='_blank' href='https://www.facebook.com/finanko.md' className={styles.social}><img src={facebook}/></a>
+                        <a alt='Instagram Logo' target='_blank' href='https://www.instagram.com/finanko.md/' className={styles.social}><img src={instagram}/></a>
                     </span>
                 </article>
             </section>
