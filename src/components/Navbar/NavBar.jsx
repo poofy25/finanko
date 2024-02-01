@@ -1,6 +1,6 @@
 import styles from './navBar.module.scss'
 
-import logo from '/src/assets/Images/logo_white_cropped.png'
+import logo from '/src/assets/Images/logo_white_cropped.webp'
 
 import NavBarMenu from './NavBarMenu'
 

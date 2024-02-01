@@ -3,7 +3,7 @@ import styles from './projectPage.module.scss'
 import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.production'
 
 
-import contactBg from '/src/assets/Images/Sections/contactBG.jpg'
+import contactBg from '/src/assets/Images/Sections/contactBG.webp'
 
 function ProjectPage({data}) {
     return ( 

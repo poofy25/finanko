@@ -43,7 +43,6 @@ function NavBarMenu({status , setStatus}) {
             <HashLink onClick={()=>{setStatus(!status)}} smooth to="/#parteneri">Parteneri</HashLink>
             <HashLink onClick={()=>{setStatus(!status)}} className={styles.lasta} smooth to="/#contacte">Contacte</HashLink>
         
-
             <span>
                 <a target='_blank' href='https://www.facebook.com/finanko.md'><img alt='Facebook Logo' src={facebook}/></a>
                 <a target='_blank' href='https://www.instagram.com/finanko.md/'><img alt='Instagram Logo' src={instagram}/></a>

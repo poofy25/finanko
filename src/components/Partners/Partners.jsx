@@ -1,11 +1,11 @@
 import styles from './partners.module.scss'
-import bgImg from '/src/assets/Images/Sections/partners.png'
+import bgImg from '/src/assets/Images/Sections/partners.webp'
 
-import part1 from '/src/assets/Images/Sections/Partners/1.png'
-import part2 from '/src/assets/Images/Sections/Partners/2.png'
-import part3 from '/src/assets/Images/Sections/Partners/3.png'
-import part4 from '/src/assets/Images/Sections/Partners/4.png'
-import part5 from '/src/assets/Images/Sections/Partners/5.png'
+import part1 from '/src/assets/Images/Sections/Partners/1.webp'
+import part2 from '/src/assets/Images/Sections/Partners/2.webp'
+import part3 from '/src/assets/Images/Sections/Partners/3.webp'
+import part4 from '/src/assets/Images/Sections/Partners/4.webp'
+import part5 from '/src/assets/Images/Sections/Partners/5.webp'
 import part6 from '/src/assets/Images/Sections/Partners/6.svg'
 
 

@@ -1,6 +1,6 @@
 import styles from './footer.module.scss'
 
-import logo from '/src/assets/Images/logo_white_cropped.png'
+import logo from '/src/assets/Images/logo_white_cropped.webp'
 
 import facebook from '/src/assets/Svgs/facebook.svg'
 import instagram from '/src/assets/Svgs/instagram.svg'
@@ -39,10 +39,10 @@ function Footer() {
                 <article>
                     <h3>URMAREȘTE-NE</h3>
                     <a href='#acasa' alt='Logo' className={styles.logo}><img alt='Logo' src={logo}/></a>
-                    <h3>SUNTEM ÎN REȚTELELE SOCIALE</h3>
+                    <h3>SUNTEM ÎN REȚELELE SOCIALE</h3>
                     <span>
-                        <a alt='Facebook Logo' target='_blank' href='https://www.facebook.com/finanko.md' className={styles.social}><img src={facebook}/></a>
-                        <a alt='Instagram Logo' target='_blank' href='https://www.instagram.com/finanko.md/' className={styles.social}><img src={instagram}/></a>
+                        <a  target='_blank' href='https://www.facebook.com/finanko.md' className={styles.social}><img alt='Facebook Logo' src={facebook}/></a>
+                        <a  target='_blank' href='https://www.instagram.com/finanko.md/' className={styles.social}><img alt='Instagram Logo' src={instagram}/></a>
                     </span>
                 </article>
             </section>

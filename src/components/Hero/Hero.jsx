@@ -1,15 +1,13 @@
 import styles from './hero.module.scss'
 
-import Image from '/src/assets/Images/Sections/header.jpg'
+import Image from '/src/assets/Images/Sections/header.webp'
 
 function HeroSection() {
     return ( 
-        <section className={styles.container} id='acasa'>
-            <header>
+        <header className={styles.container} id='acasa'>
                 <h1>Descoperă soluții optime pentru afacerea ta</h1>
-            </header>
             <img alt='Hero Image' src={Image}/>
-        </section>
+        </header>
      );
 }
 

@@ -1,6 +1,6 @@
 import styles from './projects.module.scss'
 
-import logo from '/src/assets/Images/logo.png'
+import logo from '/src/assets/Images/logo.webp'
 
 import accountingSVG from '/src/assets/Svgs/accounting.svg'
 import consultingSVG from '/src/assets/Svgs/consulting.svg'
