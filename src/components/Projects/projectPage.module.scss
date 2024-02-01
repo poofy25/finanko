@@ -86,6 +86,18 @@
     }
     }
     @media only screen and (min-width: 640px) and (max-width:992px){
+        .container {
+            padding-inline: 0;
+            justify-content: start;
+        }
+        .content{
+            border: none;
+            margin-inline: 7.5vw;
+            box-sizing: border-box;
+            border-top: 4px solid v.$complyColor;
+            padding: 0;
+            width: 85vw;
+        }
     }
     
     @media only screen and (min-width: 992px) and (max-width:1200px) {

@@ -54,6 +54,21 @@ footer{
     width: 3rem;
 }
 
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 7.5vw;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    width: 100%;
+    color: v.$white;
+}
+.bottom > a {
+    color:  v.$white;
+    text-decoration: none;
+}
+
 
 @media only screen and (min-width: 0px) and (max-width:640px) {
     .content{
@@ -63,9 +78,24 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    .bottom {
+        flex-direction: column;
+        
+    }
 
 }
  @media only screen and (min-width: 640px) and (max-width:992px){
+    .content{
+        flex-direction: column;
+    }
+    .content > article {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom {
+        flex-direction: column;
+        
+    }
 }
     
 @media only screen and (min-width: 992px) and (max-width:1200px) {

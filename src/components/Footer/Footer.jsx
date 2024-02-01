@@ -46,7 +46,10 @@ function Footer() {
                     </span>
                 </article>
             </section>
-            <section className={styles.bottom}></section>
+            <section className={styles.bottom}>
+                <p>© 2024 Finanko</p>
+                <a href='https://www.facebook.com/buzacristian25' target='_blank'>Website creat de Buza Cristian</a>
+            </section>
         </footer>
      );
 }
